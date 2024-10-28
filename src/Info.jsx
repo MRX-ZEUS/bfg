@@ -21,7 +21,7 @@ export default function Info() {
                     <span className="font-semibold">Country:</span> Pakistan
                 </p>
                 <p className="text-lg">
-                    <span className="font-semibold">Phone:</span> +92 345 928 6245
+                    <span className="font-semibold">Phone:</span> +92 345 918 6245
                 </p>
                 <p className="text-lg">
                     <span className="font-semibold">Special Thanks to :</span> Sanobar Qayyum
