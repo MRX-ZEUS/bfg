@@ -160,21 +160,26 @@ export default function About() {
         </div>
 
         {/* Core Values Section */}
-        <div className="mt-10">
-          <h2 className="text-3xl font-bold text-center mb-4 text-yellow-500">Core Values in Action</h2>
-          <p className="text-xl mb-4 text-gray-700">
-            <strong>Faith:</strong> We believe that faith is the foundation of our strength. Through prayer, encouragement, and support, we grow together as a team—just as every football match begins with a sense of hope, trust, and belief in each other.
-          </p>
-          <p className="text-xl mb-4 text-gray-700">
-            <strong>Community:</strong> We are committed to uplifting our local community. From engaging in outreach programs to helping those in need, we promote sportsmanship, teamwork, and positive values. Football, like our community, thrives when we all work together.
-          </p>
-          <p className="text-xl mb-4 text-gray-700">
-            <strong>Integrity:</strong> We play by the rules, on and off the field. Integrity in football means being honest in our actions, showing respect to our opponents, and playing with fairness. Our commitment to honesty and fairness shapes our character and strengthens our bonds.
-          </p>
-          <p className="text-xl mb-4 text-gray-700">
-            <strong>Respect:</strong> We honor each other, our coaches, and our opponents, understanding that every player has value and contributes to the game. Respect on the field fosters unity, understanding, and teamwork, making every match a celebration of the game.
-          </p>
-        </div>
+<div className="mt-10 bg-white p-8 rounded-lg shadow-md border-t-4 border-yellow-500">
+  <h2 className="text-3xl font-bold text-center mb-6 text-yellow-600">Core Values in Action</h2>
+
+  <p className="text-xl mb-4 text-gray-800">
+    <strong className="text-yellow-500">Faith:</strong> We believe that faith is the foundation of our strength. Through prayer, encouragement, and support, we grow together as a team—just as every football match begins with a sense of hope, trust, and belief in each other.
+  </p>
+
+  <p className="text-xl mb-4 text-gray-800">
+    <strong className="text-yellow-500">Community:</strong> We are committed to uplifting our local community. From engaging in outreach programs to helping those in need, we promote sportsmanship, teamwork, and positive values. Football, like our community, thrives when we all work together.
+  </p>
+
+  <p className="text-xl mb-4 text-gray-800">
+    <strong className="text-yellow-500">Integrity:</strong> We play by the rules, on and off the field. Integrity in football means being honest in our actions, showing respect to our opponents, and playing with fairness. Our commitment to honesty and fairness shapes our character and strengthens our bonds.
+  </p>
+
+  <p className="text-xl mb-4 text-gray-800">
+    <strong className="text-yellow-500">Respect:</strong> We honor each other, our coaches, and our opponents, understanding that every player has value and contributes to the game. Respect on the field fosters unity, understanding, and teamwork, making every match a celebration of the game.
+  </p>
+</div>
+
       </motion.div>
     </>
   );
