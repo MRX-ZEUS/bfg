@@ -68,7 +68,7 @@ function NavBar(){
                 initial={{y:100}}
                 animate={{y:0}}
                 transition={{duration:1}}
-                className="p-1 sm:p-2 m-2 rounded-lg hover:text-black bg-[#FFD700]">
+                className="p-1 sm:p-2 m-2 rounded-lg text-white font-mono bg-block text-xl">
                     Donate Now
                 </motion.div>
                 </button>
