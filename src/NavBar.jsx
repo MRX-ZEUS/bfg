@@ -62,7 +62,8 @@ function NavBar(){
                 </a>
             </span>
             <span>
-            <button href="https://patreon.com/MINORITYFOOTBALLACADEMY?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink">
+                <a href="https://patreon.com/MINORITYFOOTBALLACADEMY?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" target="_blank" >
+            <button>
                 <motion.div
                 initial={{y:100}}
                 animate={{y:0}}
@@ -71,8 +72,8 @@ function NavBar(){
                     Donate Now
                 </motion.div>
                 </button>
+                    </a>
             </span>
-        )}
         </motion.div>
 
     )
