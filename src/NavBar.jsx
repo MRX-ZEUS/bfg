@@ -16,7 +16,7 @@ function NavBar(){
         initial={{ y:100 }}
         animate={{ x:0,y:0 }}
         transition={{duration:.5}}
-        className="bg-[#87CEEB] text-white flex justify-evenly text-sm sm:text-md">
+        className="bg-[#87CEEB] text-white flex justify-evenly text-sm sm:text-md items-center">
             <span>
                 <a href="/">
                 <motion.div
