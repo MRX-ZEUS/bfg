@@ -62,22 +62,16 @@ function NavBar(){
                 </a>
             </span>
             <span>
-            <button href="/">
+            <button href="https://patreon.com/MINORITYFOOTBALLACADEMY?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink">
                 <motion.div
                 initial={{y:100}}
                 animate={{y:0}}
                 transition={{duration:1}}
-                onClick={handleDonateClick}
                 className="p-1 sm:p-2 m-2 rounded-lg hover:text-black bg-[#FFD700]">
                     Donate Now
                 </motion.div>
                 </button>
             </span>
-            {showAlert && (
-            <CustomAlert
-                message="Thank you for your interest! We really appreciate your kindness. Soon this option will be made available to you."
-                onClose={closeAlert}
-            />
         )}
         </motion.div>
 
